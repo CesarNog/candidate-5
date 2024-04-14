@@ -1,0 +1,3 @@
+{
+    "body": "{\"userName\": \"candidate-5\", \"createAccessKey\": true, \"issues\": [\"EC2 instance security groups as inbound and outbound traffic are open for all users\", \"Found missing MFA of root user and all users\", \"Add users to security group\", \"Add permissions boundaries for IAM entities\", \"EBS volumes are not encrypted\"]}"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "candidate-5-inventory-lambda-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/code/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "generate-docs": "jsdoc -c jsdoc.json",
+    "start-docs": "http-server ./docs -p 3000 -o /index.html",
+    "test": "sam local invoke candidate5LambdaFunctionTest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "jsdoc": "^4.0.2"
+  }
+}
